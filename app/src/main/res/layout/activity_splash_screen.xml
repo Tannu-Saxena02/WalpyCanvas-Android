@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".SplashScreen">
+
+
+<TextView
+    android:id="@+id/appname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="walpy Canvas"
+   android:textStyle="bold|italic"
+    android:fontFamily="monospace"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="50dp"
+    android:textColor="#4CAF50"
+    android:textSize="30dp"
+        />
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+                android:layout_centerInParent="true"
+                app:lottie_autoPlay="true"
+                android:id="@+id/lottieImage"
+            android:elevation="5dp"
+                app:lottie_rawRes="@raw/background"/>
+<!--        <ImageView-->
+<!--            android:id="@+id/logoImageview"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/wallpio" />-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/white"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/error"
+        android:layout_margin="10dp"
+        android:id="@+id/img"
+
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        />
+        <TextView
+            android:id="@+id/txtInfoMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="walpy Canvas"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#4CAF50"
+            android:textSize="15dp"/>
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Ok"
+        android:textAllCaps="false"
+        android:backgroundTint="#355e3b"
+        android:layout_marginHorizontal="30dp"/>
+    </LinearLayout>
+<!--        <LinearLayout-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:orientation="vertical">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/ivstatus"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:src="@drawable/wallpaper"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_gravity="center"-->
+<!--        />-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:visibility="visible">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/infoIcon"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_marginRight="4dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/wallpaper"-->
+<!--                android:visibility="visible" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtinfo"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="info:"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:visibility="visible">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtInfoMsg"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="17dp" />-->
+<!--        </LinearLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/linearbtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btnOk"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Ok"-->
+<!--                android:textAllCaps="false" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </LinearLayout>-->
+
+</com.google.android.material.card.MaterialCardView>
