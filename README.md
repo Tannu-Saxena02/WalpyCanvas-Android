@@ -31,11 +31,11 @@ Walpy Canvas is an Android application that allows users to browse various wallp
 
 - **Android SDK:** For building the Android application.
 - **Kotlin/Java:** Programming languages used for Android development.
-- **MVVM** Used architecture to implement them.
-- **XML** For building the UI/UX part.
+- **MVVM:** Used architecture to implement them.
+- **XML:** For building the UI/UX part.
 - **RecyclerView:** For displaying the list of wallpapers.
 - **Glide:** For loading and displaying images efficiently.
-- **Animation** enhances user experience by providing visual feedback
+- **Animation:** enhances user experience by providing visual feedback
 - **APIs:** For loading images,setting wallpapers and integrating with system settings.
 
 ## Getting Started
