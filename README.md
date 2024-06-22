@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Walpy Canvas is an Android application that allows users to browse various wallpapers and set them on their home and lock screens. Users can choose from different image styles such as technology, arts, crafts, and cartoons. The app integrates seamlessly with the system settings to provide a smooth wallpaper-changing experience.
+Walpy Canvas is an Android application that allows users to browse various wallpapers and set them on their home and lock screens. Users can choose from different image styles such as technology, arts, crafts, and cartoons etc and can also search other wallpapers. The app integrates seamlessly with the system settings to provide a smooth wallpaper-changing experience.
 
 ## Features
 
@@ -18,6 +18,11 @@ Walpy Canvas is an Android application that allows users to browse various wallp
     - Arts
     - Crafts
     - Cartoons
+    - Travel
+    - Architecture
+    - music
+    - Cars
+      and many more...
 
 - **Seamless Integration:**
   - Integration with system settings to ensure a seamless experience when changing wallpapers.
@@ -26,9 +31,12 @@ Walpy Canvas is an Android application that allows users to browse various wallp
 
 - **Android SDK:** For building the Android application.
 - **Kotlin/Java:** Programming languages used for Android development.
+- **MVVM** Used architecture to implement them.
+- **XML** For building the UI/UX part.
 - **RecyclerView:** For displaying the list of wallpapers.
-- **Glide/Picasso:** For loading and displaying images efficiently.
-- **System APIs:** For setting wallpapers and integrating with system settings.
+- **Glide:** For loading and displaying images efficiently.
+- **Animation** enhances user experience by providing visual feedback
+- **APIs:** For loading images,setting wallpapers and integrating with system settings.
 
 ## Getting Started
 
@@ -47,19 +55,6 @@ Walpy Canvas is an Android application that allows users to browse various wallp
    Run the app from Android Studio.
 
    
-**Screenshots**
-
-<p align="center">
-<img alt="Dark" src="https://github.com/Tannu-Saxena02/WalpyCanvas-Android/assets/95030483/1fc89164-9ad8-4b2c-9098-ff8fb2feaa95" width=200>&nbsp; &nbsp; &nbsp; &nbsp;
-<img alt="Dark" src=https://github.com/Tannu-Saxena02/WalpyCanvas-Android/assets/95030483/5b262e80-199f-45cd-8bbc-2f8301945f4b" width=200>&nbsp; &nbsp; &nbsp; &nbsp;
-<img alt="Dark" src=https://github.com/Tannu-Saxena02/WalpyCanvas-Android/assets/95030483/28b1b485-f23d-4555-9b96-a42782c4abd1" width=200>&nbsp; &nbsp; &nbsp; &nbsp;
-<img alt="Dark" src=https://github.com/Tannu-Saxena02/WalpyCanvas-Android/assets/95030483/d833730a-a989-4265-8b23-bfc326ccc8eb" width=200>
-</p>
-<p align="center",marginBottom=40>
-<img alt="Dark" src=https://github.com/Tannu-Saxena02/WalpyCanvas-Android/assets/95030483/c758fe6c-f4f7-4a17-92f7-7081bf4eb24b" width=200>&nbsp; &nbsp; &nbsp; &nbsp;
-<img alt="Dark" src=https://github.com/Tannu-Saxena02/WalpyCanvas-Android/assets/95030483/89a112a8-1d46-41c3-a51d-77038127e4d0" width=200>&nbsp; &nbsp; &nbsp; &nbsp;
-<img alt="Dark" src=https://github.com/Tannu-Saxena02/WalpyCanvas-Android/assets/95030483/3a91789b-9d6b-4596-8176-2d3042822850" width=200>
-</p>
 
 
 
@@ -67,6 +62,4 @@ Walpy Canvas is an Android application that allows users to browse various wallp
 
 
 
-</p>
 
-(Add relevant screenshots here to showcase the app)
