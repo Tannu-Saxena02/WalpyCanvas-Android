@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Walpy Canvas is an Android application that allows users to browse various wallpapers and set them on their home and lock screens. Users can choose from different image styles such as technology, arts, crafts, and cartoons etc and can also search other wallpapers. The app integrates seamlessly with the system settings to provide a smooth wallpaper-changing experience.
+Walpy Canvas is an Android application that allows users to browse various wallpapers and set them on their home and lock screens. Users can choose from different image styles such as technology, arts, crafts, and cartoons etc and can also search other wallpapers. The app integrates seamlessly with the system settings to provide a smooth wallpaper-changing experience 💯.
 
 ## Features
 
